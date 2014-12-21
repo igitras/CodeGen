@@ -27,7 +27,8 @@ public enum JavaSourceFolder {
     MAIN_JAVA_FOLDER("java"),
     MAIN_RESOURCES_FOLDER("resources"),
     TEST_JAVA_FOLDER("java"),
-    TEST_RESOURCES_FOLDER("resources");
+    TEST_RESOURCES_FOLDER("resources"),
+    DUMY_FOLDER("dumy");
 
     private String folderName;
 

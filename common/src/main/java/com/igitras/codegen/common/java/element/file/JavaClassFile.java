@@ -17,12 +17,14 @@
 package com.igitras.codegen.common.java.element.file;
 
 
+import com.igitras.codegen.common.java.element.JavaDirectory;
 import com.igitras.codegen.common.java.element.JavaFile;
 import com.igitras.codegen.common.java.element.JavaPackage;
 import com.igitras.codegen.common.java.element.enums.IsAbstract;
 import com.igitras.codegen.common.java.element.enums.IsFinal;
 import com.igitras.codegen.common.java.element.enums.VisitPrivilege;
 import com.igitras.codegen.common.java.element.file.part.*;
+import com.igitras.codegen.common.utils.StringUtils;
 
 import java.util.Set;
 
@@ -47,10 +49,10 @@ public class JavaClassFile extends JavaFile implements JavaFileInterface {
     private IsFinal isFinal;
     private IsAbstract isAbstract;
 
-    public JavaClassFile(String name, JavaPackage javaPackage) {
-        super(name, javaPackage);
+    public JavaClassFile(String name, JavaDirectory directory) {
+        super(name, directory);
         this.className = name;
-        this.packagePart = new JavaPackagePart(javaPackage.getPackageName());
+        this.packagePart = new JavaPackagePart(StringUtils.getPackageName(name));
         this.copyrightPart = new CopyrightPart();
         this.importsPart = new JavaImportsPart();
         this.extendsPart = new JavaExtendsPart();

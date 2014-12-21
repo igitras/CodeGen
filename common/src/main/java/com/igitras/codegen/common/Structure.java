@@ -19,11 +19,17 @@ package com.igitras.codegen.common;
 /**
  * Created by mason on 12/17/14.
  */
-public interface Structure {
+public interface Structure<D extends Directory, F extends File> {
 
-    Directory getDirectory(String directoryName);
+    D getDirectory(String directoryName);
 
-    File getFile(String fileName);
+    void addDirectory(String directoryName, D directory);
 
-    void addDirectory(String concatPackageName, Directory directory);
+    void removeDirectory(String directoryName);
+
+    F getFile(String fileName);
+
+    void addFile(String fileName, F file);
+
+    void removeFile(String fileName);
 }

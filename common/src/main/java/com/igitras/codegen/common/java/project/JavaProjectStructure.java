@@ -18,17 +18,21 @@ package com.igitras.codegen.common.java.project;
 
 import com.igitras.codegen.common.AbstractStructure;
 import com.igitras.codegen.common.Configuration;
+import com.igitras.codegen.common.Directory;
 import com.igitras.codegen.common.ProjectDirectory;
 import com.igitras.codegen.common.java.element.JavaDirectory;
+import com.igitras.codegen.common.java.element.JavaFile;
 import com.igitras.codegen.common.java.element.JavaPackage;
+import com.igitras.codegen.common.java.utils.Utils;
 import com.igitras.codegen.common.utils.Assert;
+import sun.plugin.dom.exception.InvalidStateException;
 
 import java.io.File;
 
 /**
  * Created by mason on 12/18/14.
  */
-public class JavaProjectStructure extends AbstractStructure {
+public class JavaProjectStructure extends AbstractStructure<Directory, JavaFile> {
 
     private final String basePackage;
     private final Configuration projectConfiguration;
@@ -77,6 +81,9 @@ public class JavaProjectStructure extends AbstractStructure {
 
         new JavaPackage(mainJavaDirectory, basePackage);
         new JavaPackage(testJavaDirectory, basePackage);
+
+        directoryNameMap.put(JavaSourceFolder.DUMY_FOLDER.name(),
+                             new JavaDirectory(srcDirectory, JavaSourceFolder.DUMY_FOLDER.getFolderName()));
     }
 
 
@@ -87,4 +94,21 @@ public class JavaProjectStructure extends AbstractStructure {
     public String getBasePackage() {
         return basePackage;
     }
+
+    public JavaFile resolveFile(String fileName) {
+        JavaFile file = getFile(fileName);
+        if (file == null) {
+            file = Utils.reflectResolveFile(fileName, (JavaDirectory)getDirectory(JavaSourceFolder.DUMY_FOLDER.name()));
+            if (file != null) {
+                addFile(fileName, file);
+            }
+        }
+
+        if (file == null) {
+            throw new InvalidStateException(String.format("Unknown class with name %s.", fileName));
+        }
+
+        return file;
+    }
+
 }

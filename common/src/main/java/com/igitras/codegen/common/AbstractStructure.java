@@ -24,28 +24,51 @@ import java.util.Map;
 /**
  * Created by mason on 12/18/14.
  */
-public abstract class AbstractStructure implements Structure {
+public abstract class AbstractStructure<D extends Directory, F extends File> implements Structure<D, F> {
 
-    protected final Map<String, Directory> directoryNameMap = new HashMap<String, Directory>();
-    protected final Map<String, File> fileNameMap = new HashMap<String, File>();
+    protected final Map<String, D> directoryNameMap = new HashMap<String, D>();
+    protected final Map<String, F> fileNameMap = new HashMap<String, F>();
 
     @Override
-    public Directory getDirectory(String directoryName) {
+    public D getDirectory(String directoryName) {
         return directoryNameMap.get(directoryName);
     }
 
     @Override
-    public File getFile(String fileName) {
-        return fileNameMap.get(fileName);
+    public void removeDirectory(String directoryName) {
+        if(directoryNameMap.containsKey(directoryName)){
+            directoryNameMap.remove(directoryName);
+        }
     }
 
     @Override
-    public void addDirectory(String concatPackageName, Directory directory) {
-        if (directoryNameMap.get(concatPackageName) != null) {
-            throw new InvalidStateException("Java Package already Exist.");
+    public void addDirectory(String directoryName, D directory) {
+        if (directoryNameMap.get(directoryName) != null) {
+            throw new InvalidStateException(String.format("Directory with name %s already Exist.", directoryName));
         }
 
-        directoryNameMap.put(concatPackageName, directory);
+        directoryNameMap.put(directoryName, directory);
     }
 
+
+    @Override
+    public F getFile(String fileName) {
+        return fileNameMap.get(fileName);
+    }
+
+
+    @Override
+    public void addFile(String fileName, F file) {
+        if(fileNameMap.get(fileName) != null) {
+            throw new InvalidStateException(String.format("File with name %s already exist.", fileName));
+        }
+        fileNameMap.put(fileName, file);
+    }
+
+    @Override
+    public void removeFile(String fileName) {
+        if(fileNameMap.containsKey(fileName)){
+            fileNameMap.remove(fileName);
+        }
+    }
 }

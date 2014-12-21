@@ -17,6 +17,7 @@
 package com.igitras.codegen.common;
 
 import com.igitras.codegen.common.utils.Assert;
+import com.igitras.codegen.common.utils.StringUtils;
 import com.igitras.codegen.common.utils.Utils;
 
 import java.util.Iterator;
@@ -50,7 +51,7 @@ public abstract class AbstractElement implements Element {
         } else if (File.class.isAssignableFrom(getClass())) {
             File file = (File) this;
             String content = file.build();
-            Utils.writeFileInDirectory(content, file.getName() + file.getSuffix(),
+            Utils.writeFileInDirectory(content, StringUtils.packageToPath(file.getName()) + file.getSuffix(),
                                        file.getContainable().getDirectory());
         }
     }

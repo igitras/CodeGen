@@ -92,4 +92,14 @@ public abstract class StringUtils {
     public static String concat(String sourceFolderName, String packageName) {
         return sourceFolderName + "[" + packageName + "]";
     }
+
+    public static String getPackageName(String className) {
+        Assert.hasLength(className, "Package Name must have length.");
+
+        int lastIndexOf = className.lastIndexOf('.');
+        if(lastIndexOf < 0){
+            throw new IllegalArgumentException(String.format("Illegal Class name with name %s", className));
+        }
+        return className.substring(0, lastIndexOf);
+    }
 }
