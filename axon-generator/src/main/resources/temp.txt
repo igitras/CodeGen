@@ -1,0 +1,464 @@
+Information:Using javac 1.8.0_05 to compile java sources
+Information:java: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+Information:java: Errors occurred while compiling module 'IntellijCodeFormater'
+Information:12/28/14, 18:13 - Compilation completed with 100 errors and 100 warnings in 36 sec
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/wm/impl/DesktopLayout.java
+Warning:(19, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+Warning:(34, 45) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/wm/impl/WindowInfoImpl.java
+Warning:(19, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+Warning:(31, 56) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ui/components/JBPanel.java
+Warning:(20, 41) java: com.intellij.openapi.actionSystem.TypeSafeDataProvider in com.intellij.openapi.actionSystem has been deprecated
+Warning:(30, 48) java: com.intellij.openapi.actionSystem.TypeSafeDataProvider in com.intellij.openapi.actionSystem has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/wm/impl/ToolWindowHeader.java
+Error:(421, 88) java: package AltStateManager does not exist
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/editor/colors/EditorColorsScheme.java
+Warning:(21, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+Warning:(28, 56) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/fileEditor/impl/EditorHistoryManager.java
+Warning:(31, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+Warning:(48, 85) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/editor/markup/TextAttributes.java
+Warning:(20, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+Warning:(33, 40) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/editor/markup/AttributesFlyweight.java
+Warning:(23, 33) java: com.intellij.openapi.util.DefaultJDOMExternalizer in com.intellij.openapi.util has been deprecated
+Warning:(138, 24) java: com.intellij.openapi.util.DefaultJDOMExternalizer in com.intellij.openapi.util has been deprecated
+Warning:(139, 24) java: com.intellij.openapi.util.DefaultJDOMExternalizer in com.intellij.openapi.util has been deprecated
+Warning:(140, 26) java: com.intellij.openapi.util.DefaultJDOMExternalizer in com.intellij.openapi.util has been deprecated
+Warning:(141, 32) java: com.intellij.openapi.util.DefaultJDOMExternalizer in com.intellij.openapi.util has been deprecated
+Warning:(142, 20) java: com.intellij.openapi.util.DefaultJDOMExternalizer in com.intellij.openapi.util has been deprecated
+Warning:(147, 23) java: com.intellij.openapi.util.DefaultJDOMExternalizer in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ui/popup/list/ListPopupImpl.java
+Warning:(27, 23) java: com.intellij.ui.JBListWithHintProvider in com.intellij.ui has been deprecated
+Warning:(347, 43) java: getSelectedValues() in javax.swing.JList has been deprecated
+Warning:(453, 18) java: getSelectedValues() in javax.swing.JList has been deprecated
+Warning:(493, 32) java: com.intellij.ui.JBListWithHintProvider in com.intellij.ui has been deprecated
+Warning:(528, 23) java: getSelectedValues() in javax.swing.JList has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/VcsRootSettings.java
+Warning:(18, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+Warning:(26, 42) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/psi/impl/source/tree/JavaDocElementType.java
+Error:(29, 1) java: package com.intellij.psi.impl.source.javadoc does not exist
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/roots/libraries/Library.java
+Warning:(21, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/options/newEditor/OptionsTree.java
+Error:(262, 49) java: package GroupedElementsRenderer does not exist
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ide/util/treeView/AbstractTreeUi.java
+Warning:(36, 37) java: com.intellij.util.concurrency.WorkerThread in com.intellij.util.concurrency has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/psi/codeStyle/CustomCodeStyleSettings.java
+Warning:(18, 33) java: com.intellij.openapi.util.DefaultJDOMExternalizer in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/psi/codeStyle/CommonCodeStyleSettingsManager.java
+Warning:(21, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/psi/codeStyle/PackageEntryTable.java
+Warning:(20, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/psi/impl/source/resolve/ClassResolverProcessor.java
+Error:(131, 11) java: cannot find symbol
+  symbol:   class Domination
+  location: class com.intellij.psi.impl.source.resolve.ClassResolverProcessor
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/ui/impl/GlassPaneDialogWrapperPeer.java
+Warning:(24, 41) java: com.intellij.openapi.actionSystem.TypeSafeDataProvider in com.intellij.openapi.actionSystem has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/update/UpdatedFiles.java
+Warning:(19, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ide/todo/TodoPanelSettings.java
+Warning:(19, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/VcsConfiguration.java
+Error:(67, 35) java: package VcsShowConfirmationOption does not exist
+Error:(69, 35) java: package VcsShowConfirmationOption does not exist
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/CommittedChangesProvider.java
+Error:(54, 3) java: cannot find symbol
+  symbol:   class ChangeListColumn
+  location: interface com.intellij.openapi.vcs.CommittedChangesProvider<T,U>
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/VcsExceptionsHotFixer.java
+Error:(24, 61) java: cannot find symbol
+  symbol:   class ActionType
+  location: interface com.intellij.openapi.vcs.VcsExceptionsHotFixer
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ui/GuiUtils.java
+Error:(65, 55) java: cannot find symbol
+  symbol:   class TextFieldWithHistory
+  location: class com.intellij.ui.GuiUtils
+Error:(94, 59) java: cannot find symbol
+  symbol:   class TextFieldWithHistory
+  location: class com.intellij.ui.GuiUtils
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/changes/ChangelistBuilder.java
+Error:(74, 40) java: cannot find symbol
+  symbol:   class LocallyDeletedChange
+  location: interface com.intellij.openapi.vcs.changes.ChangelistBuilder
+Error:(99, 55) java: cannot find symbol
+  symbol:   class LogicalLock
+  location: interface com.intellij.openapi.vcs.changes.ChangelistBuilder
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/history/VcsHistorySession.java
+Error:(30, 3) java: cannot find symbol
+  symbol:   class HistoryAsTreeProvider
+  location: interface com.intellij.openapi.vcs.history.VcsHistorySession
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/changes/committed/VcsCommittedListsZipper.java
+Error:(25, 13) java: cannot find symbol
+  symbol:   class RepositoryLocationGroup
+  location: interface com.intellij.openapi.vcs.changes.committed.VcsCommittedListsZipper
+Error:(26, 33) java: cannot find symbol
+  symbol:   class RepositoryLocationGroup
+  location: interface com.intellij.openapi.vcs.changes.committed.VcsCommittedListsZipper
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/changes/committed/DecoratorManager.java
+Error:(19, 22) java: cannot find symbol
+  symbol:   class CommittedChangeListDecorator
+  location: interface com.intellij.openapi.vcs.changes.committed.DecoratorManager
+Error:(20, 21) java: cannot find symbol
+  symbol:   class CommittedChangeListDecorator
+  location: interface com.intellij.openapi.vcs.changes.committed.DecoratorManager
+Error:(22, 32) java: cannot find symbol
+  symbol:   class CommittedChangeListsListener
+  location: interface com.intellij.openapi.vcs.changes.committed.DecoratorManager
+Error:(23, 38) java: cannot find symbol
+  symbol:   class CommittedChangesFilterKey
+  location: interface com.intellij.openapi.vcs.changes.committed.DecoratorManager
+Error:(24, 38) java: cannot find symbol
+  symbol:   class ChangeListFilteringStrategy
+  location: interface com.intellij.openapi.vcs.changes.committed.DecoratorManager
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ide/errorTreeView/HotfixData.java
+Error:(25, 26) java: cannot find symbol
+  symbol:   class HotfixGate
+  location: class com.intellij.ide.errorTreeView.HotfixData
+Error:(27, 123) java: cannot find symbol
+  symbol:   class HotfixGate
+  location: class com.intellij.ide.errorTreeView.HotfixData
+Error:(42, 19) java: cannot find symbol
+  symbol:   class HotfixGate
+  location: class com.intellij.ide.errorTreeView.HotfixData
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/annotate/AnnotationSourceSwitcher.java
+Error:(22, 3) java: cannot find symbol
+  symbol:   class AnnotationSource
+  location: interface com.intellij.openapi.vcs.annotate.AnnotationSourceSwitcher
+Error:(27, 3) java: cannot find symbol
+  symbol:   class AnnotationSource
+  location: interface com.intellij.openapi.vcs.annotate.AnnotationSourceSwitcher
+Error:(28, 23) java: cannot find symbol
+  symbol:   class AnnotationSource
+  location: interface com.intellij.openapi.vcs.annotate.AnnotationSourceSwitcher
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/ProjectLevelVcsManager.java
+Error:(44, 29) java: cannot find symbol
+  symbol:   class VcsListener
+  location: class com.intellij.openapi.vcs.ProjectLevelVcsManager
+Error:(45, 29) java: cannot find symbol
+  symbol:   class VcsListener
+  location: class com.intellij.openapi.vcs.ProjectLevelVcsManager
+Error:(181, 19) java: cannot find symbol
+  symbol:   class VcsShowConfirmationOption
+  location: class com.intellij.openapi.vcs.ProjectLevelVcsManager
+Error:(198, 39) java: cannot find symbol
+  symbol:   class VcsListener
+  location: class com.intellij.openapi.vcs.ProjectLevelVcsManager
+Error:(207, 42) java: cannot find symbol
+  symbol:   class VcsListener
+  location: class com.intellij.openapi.vcs.ProjectLevelVcsManager
+Error:(263, 49) java: cannot find symbol
+  symbol:   class VirtualFileFilter
+  location: class com.intellij.openapi.vcs.ProjectLevelVcsManager
+Error:(270, 19) java: cannot find symbol
+  symbol:   class VcsEventsListenerManager
+  location: class com.intellij.openapi.vcs.ProjectLevelVcsManager
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/history/VcsHistoryCache.java
+Error:(38, 25) java: cannot find symbol
+  symbol:   class HistoryCacheBaseKey
+  location: class com.intellij.openapi.vcs.history.VcsHistoryCache
+Error:(39, 25) java: cannot find symbol
+  symbol:   class HistoryCacheWithRevisionKey
+  location: class com.intellij.openapi.vcs.history.VcsHistoryCache
+Error:(53, 96) java: cannot find symbol
+  symbol:   class VcsCacheableHistorySessionFactory
+  location: class com.intellij.openapi.vcs.history.VcsHistoryCache
+Error:(73, 97) java: cannot find symbol
+  symbol:   class VcsCacheableHistorySessionFactory
+  location: class com.intellij.openapi.vcs.history.VcsHistoryCache
+Error:(86, 105) java: cannot find symbol
+  symbol:   class VcsCacheableHistorySessionFactory
+  location: class com.intellij.openapi.vcs.history.VcsHistoryCache
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vcs/impl/ContentRevisionCache.java
+Error:(249, 76) java: cannot find symbol
+  symbol:   class CurrentRevisionProvider
+  location: class com.intellij.openapi.vcs.impl.ContentRevisionCache
+Error:(265, 13) java: cannot find symbol
+  symbol:   class CurrentRevisionProvider
+  location: class com.intellij.openapi.vcs.impl.ContentRevisionCache
+Error:(286, 13) java: cannot find symbol
+  symbol:   class CurrentRevisionProvider
+  location: class com.intellij.openapi.vcs.impl.ContentRevisionCache
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/ui/impl/ShadowBorderPainter.java
+Error:(19, 36) java: package org.jdesktop.swingx.graphics does not exist
+Error:(20, 36) java: package org.jdesktop.swingx.graphics does not exist
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/actionSystem/impl/ActionManagerImpl.java
+Error:(128, 22) java: cannot find symbol
+  symbol:   class ActionPopupMenuImpl
+  location: class com.intellij.openapi.actionSystem.impl.ActionManagerImpl
+Error:(1116, 36) java: cannot find symbol
+  symbol:   class ActionPopupMenuImpl
+  location: class com.intellij.openapi.actionSystem.impl.ActionManagerImpl
+Error:(1120, 39) java: cannot find symbol
+  symbol:   class ActionPopupMenuImpl
+  location: class com.intellij.openapi.actionSystem.impl.ActionManagerImpl
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/components/impl/stores/StateMap.java
+Error:(28, 23) java: package org.iq80.snappy does not exist
+Error:(29, 23) java: package org.iq80.snappy does not exist
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/diff/impl/external/DiffManagerImpl.java
+Error:(47, 24) java: cannot find symbol
+  symbol:   class Externalizer
+  location: class com.intellij.openapi.diff.impl.external.DiffManagerImpl
+Error:(65, 16) java: cannot find symbol
+  symbol:   class StringProperty
+  location: class com.intellij.openapi.diff.impl.external.DiffManagerImpl
+Error:(66, 16) java: cannot find symbol
+  symbol:   class StringProperty
+  location: class com.intellij.openapi.diff.impl.external.DiffManagerImpl
+Error:(67, 16) java: cannot find symbol
+  symbol:   class StringProperty
+  location: class com.intellij.openapi.diff.impl.external.DiffManagerImpl
+Error:(68, 16) java: cannot find symbol
+  symbol:   class StringProperty
+  location: class com.intellij.openapi.diff.impl.external.DiffManagerImpl
+Error:(69, 16) java: cannot find symbol
+  symbol:   class BooleanProperty
+  location: class com.intellij.openapi.diff.impl.external.DiffManagerImpl
+Error:(70, 16) java: cannot find symbol
+  symbol:   class BooleanProperty
+  location: class com.intellij.openapi.diff.impl.external.DiffManagerImpl
+Error:(71, 16) java: cannot find symbol
+  symbol:   class BooleanProperty
+  location: class com.intellij.openapi.diff.impl.external.DiffManagerImpl
+Error:(74, 17) java: cannot find symbol
+  symbol:   class ExternalizablePropertyContainer
+  location: class com.intellij.openapi.diff.impl.external.DiffManagerImpl
+Error:(215, 26) java: package AbstractProperty does not exist
+Error:(217, 107) java: cannot find symbol
+  symbol:   class FrameDiffTool
+  location: class com.intellij.openapi.diff.impl.external.DiffManagerImpl
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/vfs/newvfs/persistent/PersistentFS.java
+Error:(61, 28) java: package FSRecords does not exist
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/psi/impl/smartPointers/SelfElementInfo.java
+Error:(38, 41) java: cannot find symbol
+  symbol: class SmartPointerElementInfo
+Error:(289, 58) java: cannot find symbol
+  symbol:   class SmartPointerElementInfo
+  location: class com.intellij.psi.impl.smartPointers.SelfElementInfo
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ide/dnd/DnDSource.java
+Error:(26, 36) java: cannot find symbol
+  symbol: class DnDDropActionHandler
+Error:(28, 28) java: cannot find symbol
+  symbol:   class DnDAction
+  location: interface com.intellij.ide.dnd.DnDSource
+Error:(30, 34) java: cannot find symbol
+  symbol:   class DnDAction
+  location: interface com.intellij.ide.dnd.DnDSource
+Error:(30, 3) java: cannot find symbol
+  symbol:   class DnDDragStartBean
+  location: interface com.intellij.ide.dnd.DnDSource
+Error:(41, 41) java: cannot find symbol
+  symbol:   class DnDAction
+  location: interface com.intellij.ide.dnd.DnDSource
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ide/dnd/DnDTarget.java
+Error:(24, 36) java: cannot find symbol
+  symbol: class DnDDropHandler
+Error:(24, 52) java: cannot find symbol
+  symbol: class DnDTargetChecker
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/psi/scope/processor/MethodsProcessor.java
+Error:(40, 48) java: cannot find symbol
+  symbol: class ConflictFilterProcessor
+Error:(92, 36) java: cannot find symbol
+  symbol:   class Event
+  location: class com.intellij.psi.scope.processor.MethodsProcessor
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ide/ui/customization/CustomizationConfigurable.java
+Error:(33, 11) java: cannot find symbol
+  symbol:   class CustomizableActionsPanel
+  location: class com.intellij.ide.ui.customization.CustomizationConfigurable
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/org/jetbrains/jps/model/java/JpsJavaExtensionService.java
+Error:(46, 17) java: cannot find symbol
+  symbol:   class JpsJavaDependenciesEnumerator
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(50, 17) java: cannot find symbol
+  symbol:   class JpsJavaDependenciesEnumerator
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(55, 19) java: cannot find symbol
+  symbol:   class JpsProductionModuleOutputPackagingElement
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(58, 19) java: cannot find symbol
+  symbol:   class JpsTestModuleOutputPackagingElement
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(60, 19) java: cannot find symbol
+  symbol:   class JpsJavaDependenciesEnumerator
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(62, 22) java: cannot find symbol
+  symbol:   class JpsJavaDependenciesEnumerator
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(64, 22) java: cannot find symbol
+  symbol:   class JpsJavaDependenciesEnumerator
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(67, 19) java: cannot find symbol
+  symbol:   class JpsJavaProjectExtension
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(70, 19) java: cannot find symbol
+  symbol:   class JpsJavaProjectExtension
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(74, 19) java: cannot find symbol
+  symbol:   class JpsJavaModuleExtension
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(77, 19) java: cannot find symbol
+  symbol:   class JpsJavaModuleExtension
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(80, 19) java: cannot find symbol
+  symbol:   class JpsJavaDependencyExtension
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(83, 19) java: cannot find symbol
+  symbol:   class JpsJavaDependencyExtension
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(86, 19) java: cannot find symbol
+  symbol:   class ExplodedDirectoryModuleExtension
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(89, 19) java: cannot find symbol
+  symbol:   class ExplodedDirectoryModuleExtension
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(92, 80) java: cannot find symbol
+  symbol:   class JpsJavaClasspathKind
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(95, 19) java: cannot find symbol
+  symbol:   class LanguageLevel
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(120, 19) java: cannot find symbol
+  symbol:   class JavaSourceRootProperties
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+Error:(123, 19) java: cannot find symbol
+  symbol:   class JavaSourceRootProperties
+  location: class org.jetbrains.jps.model.java.JpsJavaExtensionService
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/org/jetbrains/jps/model/java/compiler/JpsJavaCompilerConfiguration.java
+Error:(38, 3) java: cannot find symbol
+  symbol:   class JpsCompilerExcludes
+  location: interface org.jetbrains.jps.model.java.compiler.JpsJavaCompilerConfiguration
+Error:(41, 3) java: cannot find symbol
+  symbol:   class ProcessorConfigProfile
+  location: interface org.jetbrains.jps.model.java.compiler.JpsJavaCompilerConfiguration
+Error:(42, 3) java: cannot find symbol
+  symbol:   class ProcessorConfigProfile
+  location: interface org.jetbrains.jps.model.java.compiler.JpsJavaCompilerConfiguration
+Error:(48, 14) java: cannot find symbol
+  symbol:   class ProcessorConfigProfile
+  location: interface org.jetbrains.jps.model.java.compiler.JpsJavaCompilerConfiguration
+Error:(55, 3) java: cannot find symbol
+  symbol:   class ProcessorConfigProfile
+  location: interface org.jetbrains.jps.model.java.compiler.JpsJavaCompilerConfiguration
+Error:(72, 3) java: cannot find symbol
+  symbol:   class JpsJavaCompilerOptions
+  location: interface org.jetbrains.jps.model.java.compiler.JpsJavaCompilerConfiguration
+Error:(73, 64) java: cannot find symbol
+  symbol:   class JpsJavaCompilerOptions
+  location: interface org.jetbrains.jps.model.java.compiler.JpsJavaCompilerConfiguration
+Error:(76, 3) java: cannot find symbol
+  symbol:   class JpsJavaCompilerOptions
+  location: interface org.jetbrains.jps.model.java.compiler.JpsJavaCompilerConfiguration
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ide/dnd/DnDManagerImpl.java
+Error:(49, 11) java: cannot find symbol
+  symbol:   class DnDEventImpl
+  location: class com.intellij.ide.dnd.DnDManagerImpl
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ide/startup/impl/StartupManagerImpl.java
+Warning:(18, 31) java: com.intellij.ide.caches.CacheUpdater in com.intellij.ide.caches has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ide/startup/StartupManagerEx.java
+Warning:(18, 31) java: com.intellij.ide.caches.CacheUpdater in com.intellij.ide.caches has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/psi/codeStyle/CodeStyleSettingsManager.java
+Warning:(23, 33) java: com.intellij.openapi.util.DefaultJDOMExternalizer in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/psi/impl/file/impl/FileManagerImpl.java
+Warning:(27, 38) java: com.intellij.openapi.fileTypes.ContentBasedFileSubstitutor in com.intellij.openapi.fileTypes has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/psi/impl/source/resolve/ResolveCache.java
+Warning:(28, 36) java: com.intellij.util.containers.ConcurrentWeakKeySoftValueHashMap in com.intellij.util.containers has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/components/impl/stores/ComponentStoreImpl.java
+Warning:(31, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ide/ui/customization/CustomActionsSchema.java
+Warning:(37, 25) java: com.intellij.util.ImageLoader in com.intellij.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/updateSettings/impl/UpdateSettings.java
+Warning:(22, 33) java: com.intellij.openapi.util.DefaultJDOMExternalizer in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/util/IconLoader.java
+Warning:(22, 25) java: com.intellij.util.ImageLoader in com.intellij.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/components/impl/stores/DefaultStateSerializer.java
+Warning:(23, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ide/impl/TypeSafeDataProviderAdapter.java
+Warning:(28, 41) java: com.intellij.openapi.actionSystem.TypeSafeDataProvider in com.intellij.openapi.actionSystem has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ide/actionMacro/ActionMacro.java
+Warning:(27, 33) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/util/xmlb/XmlSerializerImpl.java
+Warning:(18, 33) java: com.intellij.openapi.util.JDOMExternalizableStringList in com.intellij.openapi.util has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/components/Storage.java
+Warning:(42, 58) java: com.intellij.openapi.components.StateSplitter in com.intellij.openapi.components has been deprecated
+Warning:(42, 19) java: com.intellij.openapi.components.StateSplitter in com.intellij.openapi.components has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/keymap/impl/IdeKeyEventDispatcher.java
+Warning:(202, 42) java: getDataContext() in com.intellij.ide.DataManager has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ui/popup/WizardPopup.java
+Warning:(91, 85) java: getDataContext() in com.intellij.ide.DataManager has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ui/popup/HintUpdateSupply.java
+Warning:(136, 57) java: getSelectedValues() in javax.swing.JList has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/actionSystem/AnActionEvent.java
+Warning:(72, 68) java: getDataContext() in com.intellij.ide.DataManager has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/wm/impl/IdeFrameImpl.java
+Warning:(449, 33) java: removeCustomIndicationComponents() in com.intellij.openapi.wm.ex.StatusBarEx has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/wm/impl/IdeRootPane.java
+Warning:(80, 17) java: com.intellij.openapi.wm.StatusBarCustomComponentFactory in com.intellij.openapi.wm has been deprecated
+Warning:(90, 69) java: com.intellij.openapi.wm.StatusBarCustomComponentFactory in com.intellij.openapi.wm has been deprecated
+Warning:(139, 17) java: addUISettingsListener(com.intellij.ide.ui.UISettingsListener) in com.intellij.ide.ui.UISettings has been deprecated
+Warning:(234, 18) java: com.intellij.openapi.wm.StatusBarCustomComponentFactory in com.intellij.openapi.wm has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/actionSystem/ex/ActionManagerEx.java
+Warning:(104, 60) java: getDataContext() in com.intellij.ide.DataManager has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/wm/impl/ToolWindowManagerImpl.java
+Warning:(85, 99) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+Warning:(1111, 21) java: registerToolWindow(java.lang.String,javax.swing.JComponent,com.intellij.openapi.wm.ToolWindowAnchor,com.intellij.openapi.Disposable,boolean,boolean) in com.intellij.openapi.wm.ToolWindowManager has been deprecated
+Warning:(1101, 21) java: registerToolWindow(java.lang.String,javax.swing.JComponent,com.intellij.openapi.wm.ToolWindowAnchor,com.intellij.openapi.Disposable,boolean) in com.intellij.openapi.wm.ToolWindowManager has been deprecated
+Warning:(1092, 21) java: registerToolWindow(java.lang.String,javax.swing.JComponent,com.intellij.openapi.wm.ToolWindowAnchor,com.intellij.openapi.Disposable) in com.intellij.openapi.wm.ToolWindowManager has been deprecated
+Warning:(1084, 21) java: registerToolWindow(java.lang.String,javax.swing.JComponent,com.intellij.openapi.wm.ToolWindowAnchor) in com.intellij.openapi.wm.ToolWindowManager has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/wm/impl/status/IdeStatusBarImpl.java
+Warning:(229, 15) java: removeCustomIndicationComponents() in com.intellij.openapi.wm.ex.StatusBarEx has been deprecated
+Warning:(294, 15) java: removeCustomIndicationComponent(javax.swing.JComponent) in com.intellij.openapi.wm.StatusBar has been deprecated
+Warning:(238, 15) java: addCustomIndicationComponent(javax.swing.JComponent) in com.intellij.openapi.wm.StatusBar has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/wm/impl/IdeGlassPaneImpl.java
+Warning:(255, 23) java: getMenuBar() in javax.swing.JRootPane has been deprecated
+Warning:(255, 58) java: getMenuBar() in javax.swing.JRootPane has been deprecated
+Warning:(256, 32) java: getMenuBar() in javax.swing.JRootPane has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/wm/impl/FloatingDecorator.java
+Warning:(110, 21) java: show() in java.awt.Dialog has been deprecated
+Warning:(113, 10) java: show() in java.awt.Dialog has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/fileEditor/impl/EditorsSplitters.java
+Warning:(110, 29) java: addUISettingsListener(com.intellij.ide.ui.UISettingsListener) in com.intellij.ide.ui.UISettings has been deprecated
+Warning:(160, 49) java: getBorderColor() in com.intellij.util.ui.UIUtil has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/fileEditor/OpenFileDescriptor.java
+Warning:(142, 48) java: getDataContext() in com.intellij.ide.DataManager has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/fileEditor/impl/FileEditorManagerImpl.java
+Warning:(102, 93) java: com.intellij.openapi.util.JDOMExternalizable in com.intellij.openapi.util has been deprecated
+Warning:(1393, 15) java: removeFileEditorManagerListener(com.intellij.openapi.fileEditor.FileEditorManagerListener) in com.intellij.openapi.fileEditor.FileEditorManager has been deprecated
+Warning:(1388, 15) java: addFileEditorManagerListener(com.intellij.openapi.fileEditor.FileEditorManagerListener,com.intellij.openapi.Disposable) in com.intellij.openapi.fileEditor.FileEditorManager has been deprecated
+Warning:(1383, 15) java: addFileEditorManagerListener(com.intellij.openapi.fileEditor.FileEditorManagerListener) in com.intellij.openapi.fileEditor.FileEditorManager has been deprecated
+Warning:(1332, 15) java: removeEditorAnnotation(com.intellij.openapi.fileEditor.FileEditor,javax.swing.JComponent) in com.intellij.openapi.fileEditor.FileEditorManager has been deprecated
+Warning:(1327, 15) java: showEditorAnnotation(com.intellij.openapi.fileEditor.FileEditor,javax.swing.JComponent) in com.intellij.openapi.fileEditor.FileEditorManager has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/openapi/fileEditor/impl/EditorComposite.java
+Warning:(139, 24) java: requestDefaultFocus() in javax.swing.JComponent has been deprecated
+Warning:(140, 40) java: requestDefaultFocus() in javax.swing.JComponent has been deprecated
+Warning:(170, 24) java: requestDefaultFocus() in javax.swing.JComponent has been deprecated
+Warning:(173, 29) java: requestDefaultFocus() in javax.swing.JComponent has been deprecated
+Warning:(187, 24) java: addFileEditorManagerListener(com.intellij.openapi.fileEditor.FileEditorManagerListener,com.intellij.openapi.Disposable) in com.intellij.openapi.fileEditor.FileEditorManager has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ui/TabbedPaneWrapper.java
+Warning:(373, 20) java: requestDefaultFocus() in javax.swing.JComponent has been deprecated
+Warning:(374, 39) java: requestDefaultFocus() in javax.swing.JComponent has been deprecated
+Warning:(383, 27) java: requestDefaultFocus() in javax.swing.JComponent has been deprecated
+Warning:(421, 20) java: requestDefaultFocus() in javax.swing.JComponent has been deprecated
+Warning:(429, 21) java: requestDefaultFocus() in javax.swing.JComponent has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/util/ui/update/LazyUiDisposable.java
+Warning:(62, 79) java: getDataContext() in com.intellij.ide.DataManager has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ui/CaptionPanel.java
+Warning:(35, 87) java: getBorderColor() in com.intellij.util.ui.UIUtil has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ui/FocusTrackback.java
+Warning:(196, 65) java: getDataContext() in com.intellij.ide.DataManager has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/util/text/Matcher.java
+Warning:(25, 42) java: com.intellij.psi.codeStyle.NameUtil.Matcher in com.intellij.psi.codeStyle.NameUtil has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ui/JBColor.java
+Warning:(278, 22) java: getBorderColor() in com.intellij.util.ui.UIUtil has been deprecated
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/util/containers/ContainerUtil.java
+Warning:(369, 16) java: com.intellij.util.containers.ConcurrentHashSet in com.intellij.util.containers has been deprecated
+Warning:(375, 16) java: com.intellij.util.containers.ConcurrentHashSet in com.intellij.util.containers has been deprecated
+Warning:(2312, 16) java: com.intellij.util.containers.ConcurrentIntObjectHashMap in com.intellij.util.containers has been deprecated
+Warning:(2319, 16) java: com.intellij.util.containers.ConcurrentSoftValueIntObjectHashMap in com.intellij.util.containers has been deprecated
+Information:java: Some input files additionally use or override a deprecated API.
+/Volumes/BACKUP/Mac/SCM/IntellijCodeFormater/src/main/java/com/intellij/ui/popup/util/MnemonicsSearch.java
+Information:java: Some input files use unchecked or unsafe operations.
+Information:java: Recompile with -Xlint:unchecked for details.
