@@ -189,6 +189,16 @@ public class JavaInterfaceFile extends JavaFile implements JavaFileInterface {
         throw new UnsupportedOperationException("Cannnot remove non-abstract method from an interface.");
     }
 
+    @Override
+    public void addAnnotation(JavaAnnotationPart annotationPart) {
+        annotationsPart.addParts(annotationPart);
+    }
+
+    @Override
+    public void removeAnnotation(JavaAnnotationPart annotationPart) {
+        annotationsPart.getAnnotationParts().remove(annotationPart);
+    }
+
     protected void collectJavaFilePartImports(Set<JavaImportPart> imports) {
         if (imports.size() > 0) {
             this.importsPart.addParts(imports.toArray(new JavaImportPart[imports.size()]));

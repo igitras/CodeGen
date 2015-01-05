@@ -225,5 +225,15 @@ public class JavaClassFile extends JavaFile implements JavaFileInterface {
     public void removeMethod(JavaMethodPart methodPart) {
         methodsPart.getMethodParts().remove(methodPart);
     }
+
+    @Override
+    public void addAnnotation(JavaAnnotationPart annotationPart) {
+        annotationsPart.addParts(annotationPart);
+    }
+
+    @Override
+    public void removeAnnotation(JavaAnnotationPart annotationPart) {
+        annotationsPart.getAnnotationParts().remove(annotationPart);
+    }
 }
 

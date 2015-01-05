@@ -3,4 +3,6 @@ package com.igitras.codegen.common.next;
 /**
  * Created by mason on 1/4/15.
  */
-public interface CgDocComment {}
+public interface CgDocComment extends CgComment, CgDocCommentBase {
+
+}

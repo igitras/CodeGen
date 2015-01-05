@@ -52,6 +52,10 @@ public class JavaAnnotationsPart extends AbstractJavaFilePart implements JavaMul
         }
     }
 
+    public List<JavaAnnotationPart> getAnnotationParts() {
+        return annotationParts;
+    }
+
     @Override
     public Class<JavaAnnotationPart> getElementType() {
         return JavaAnnotationPart.class;

@@ -39,6 +39,7 @@ public class JavaEnumFile extends JavaFile implements JavaFileInterface {
     private final JavaFieldsPart fieldsPart;
     private final JavaConstructorsPart constructorsPart;
     private final JavaMethodsPart methodsPart;
+    private final JavaAnnotationsPart annotationsPart;
     private String comment;
     private VisitPrivilege visitPrivilege;
 
@@ -52,6 +53,7 @@ public class JavaEnumFile extends JavaFile implements JavaFileInterface {
         this.constructorsPart = new JavaConstructorsPart();
         this.methodsPart = new JavaMethodsPart();
         this.enumElementsPart = new JavaEnumElementsPart();
+        this.annotationsPart = new JavaAnnotationsPart();
     }
 
     public CopyrightPart getCopyrightPart() {
@@ -179,6 +181,16 @@ public class JavaEnumFile extends JavaFile implements JavaFileInterface {
     @Override
     public void removeMethod(JavaMethodPart methodPart) {
         methodsPart.getMethodParts().remove(methodPart);
+    }
+
+    @Override
+    public void addAnnotation(JavaAnnotationPart annotationPart) {
+        annotationsPart.addParts(annotationPart);
+    }
+
+    @Override
+    public void removeAnnotation(JavaAnnotationPart annotationPart) {
+        annotationsPart.getAnnotationParts().remove(annotationPart);
     }
 
     protected void collectJavaFilePartImports(Set<JavaImportPart> imports) {

@@ -17,10 +17,7 @@
 package com.igitras.codegen.common.java.element.file;
 
 import com.igitras.codegen.common.FileTemplate;
-import com.igitras.codegen.common.java.element.file.part.JavaAbstractMethodPart;
-import com.igitras.codegen.common.java.element.file.part.JavaConstructorPart;
-import com.igitras.codegen.common.java.element.file.part.JavaFieldPart;
-import com.igitras.codegen.common.java.element.file.part.JavaMethodPart;
+import com.igitras.codegen.common.java.element.file.part.*;
 
 /**
  * Created by mason on 2014-12-01.
@@ -42,5 +39,9 @@ public interface JavaFileInterface extends FileTemplate {
     void addMethod(JavaMethodPart methodPart);
 
     void removeMethod(JavaMethodPart methodPart);
+
+    void addAnnotation(JavaAnnotationPart annotationPart);
+
+    void removeAnnotation(JavaAnnotationPart annotationPart);
 }
 
